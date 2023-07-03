@@ -1,6 +1,7 @@
 import shortuuid 
 import datetimeService
 
+#Generates a unqiue ID for each video-to-frame project made.
 def generateOrderID():
     orderID = 'order' + shortuuid.ShortUUID().random(length=12) #re1x2uoii12x
     return orderID
