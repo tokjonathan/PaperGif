@@ -1,0 +1,43 @@
+user input
+- video, fileName
+- name
+- quantity 
+- address
+- email
+- phone
+- isGift(Bool)
+ 
+adjustable paramters
+- noOfFrame = 120
+- height = 160 
+- width= -1 (auto scale to fit aspect ratio)
+- price 
+
+generated variables
+-> dateCreated
+-> file Extension
+-> video duration
+-> userID
+-> OrderID
+-> videoID
+
+
+videoDirectory  (general system directory)
+newFolderName(orderID+userID+date)
+newVideoName(orderID+userID+date+prefix)
+printables (New Folder)
+PDFname (orderID + userID + date)
+
+#####
+userName = input('User\'s name: ')
+fileName = input('Filename : ')
+quantity = input('Quantity : ')
+address = input('Address : ')
+email = input('Email Address : ')
+phoneNo = input('Phone Number : ')
+isGift = input('Package as a gift?(Y/N) : ')
+if (isGift.capitalize() == 'Y'):
+    isGift = 'Y'
+else:
+    isGift = 'N'
+    
